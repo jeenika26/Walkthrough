@@ -1,3 +1,3 @@
  
-> ## These are important high level DVWA challenges
+These are solutions to high level DVWA Challenges.
 
